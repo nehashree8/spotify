@@ -1,0 +1,65 @@
+#spotify{
+    background: black;
+    width: 15%;
+    height: 200vh;
+    float: left;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar>div{
+    color: white;
+    padding: 10px;
+}
+p{
+    color: white;
+}
+#music{
+    background-color: rgb(36, 35, 35);
+    height: 200vh;
+}
+.profile{
+    margin-left: 80%;
+    margin-top: -30px;
+    border-radius: 30px;
+    background: rgb(12, 12, 12);
+}
+.profile>select{
+    width: 100px;
+    height: 8vh;
+    background: none;
+    outline: none;
+    border-radius: none;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+}
+.profile>i{
+    padding: 10px;
+}
+.songs>h2{
+    color: white;
+}
+.playlist{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.playlist>div>img{
+    width: 75%;
+    height: 200px;
+}
+.song>h2{
+    color: white;
+}
+.tracks{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.tracks>div>img{
+    width: 75%;
+    height: 200px;
+}
